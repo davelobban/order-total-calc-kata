@@ -13,17 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj" />
     <ProjectReference Include="..\OrderTotalCalculator\OrderTotalCalculator.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="testData.OrderCollection.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="testData.SingleOrder.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
